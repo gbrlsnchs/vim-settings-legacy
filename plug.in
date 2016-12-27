@@ -1,0 +1,25 @@
+#!/bin/sh
+
+ROOT_DIR=$(pwd)
+
+# Add a new git submodule in the "bundle" directory
+if [ ! -d bundle ]; then
+    mkdir bundle
+fi
+
+cd $(pwd)/bundle
+
+if [ $# -gt 0 ]; then
+    git submodule add -f $1
+
+    if [ $? -ne 0 ]; then
+        echo "\033[0;33mAborting plugin installation..."
+        exit 1
+    fi
+else
+    echo "\033[0;31mFailure: No repository provided!"
+    exit 1
+fi
+
+cd $(pwd)
+echo "\033[0;32mPlugin successfully added!"
