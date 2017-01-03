@@ -10,14 +10,14 @@ print_loading() {
         BAR_COUNTER=0
 
         while [ $BAR_COUNTER -lt $PROGRESS_COUNT ]; do
-            LOADING_BAR="${LOADING_BAR}■"
+            LOADING_BAR="${LOADING_BAR}◼"
             BAR_COUNTER=$((BAR_COUNTER+1))
         done
 
         WHITESPACE_COUNTER=0
 
         while [ $WHITESPACE_COUNTER -lt $WHITESPACE_COUNT ]; do
-            LOADING_BAR="${LOADING_BAR}□"
+            LOADING_BAR="${LOADING_BAR}◻"
             WHITESPACE_COUNTER=$((WHITESPACE_COUNTER+1))
         done
 
