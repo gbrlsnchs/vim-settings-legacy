@@ -4,9 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [Unreleased]
+## [0.2.0]
 ### Added
 - Git submodules update script.
+
+### Changed
+- Installation from the symlink folder (not possible anymore).
+
+### Removed
+- Grepper custom settings.
 
 ## 0.1.0 - 02-01-2017
 ### Added
@@ -15,4 +21,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial configuration.
 - Some plugins.
 
-[Unreleased]: https://github.com/olivierlacan/keep-a-changelog/compare/0.1.0...HEAD
+[0.2.0]: https://github.com/gsanches/vim-settings/compare/0.1.0...0.2.0
