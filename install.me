@@ -2,6 +2,11 @@
 
 ROOT_DIR=$(pwd)
 
+if [ -L $ROOT_DIR ]; then
+    echo "\033[0;31mError: current directory is a symlink!"
+    exit 1
+fi
+
 # Remove existing files and create new symlinks
 rm -f ~/.vimrc
 ln -s $ROOT_DIR/vimrc ~/.vimrc
