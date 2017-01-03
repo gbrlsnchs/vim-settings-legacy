@@ -10,7 +10,7 @@ source ~/.vim/config/autocmd-config.vim
 " load plugins configurations
 source ~/.vim/config/airline-config.vim
 source ~/.vim/config/ctrlp-config.vim
-source ~/.vim/config/grepper-config.vim
+" source ~/.vim/config/grepper-config.vim
 source ~/.vim/config/nerdtree-config.vim
 source ~/.vim/config/solarized-config.vim
 source ~/.vim/config/startify-config.vim
