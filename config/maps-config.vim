@@ -10,4 +10,4 @@ nmap <silent> <Tab> :tabnext<LF>
 nmap <silent> <S-Tab> :tabprevious<LF>
 nmap <leader>no :NERDTreeToggle<LF>
 nmap <leader>nf :NERDTreeFind<LF>
-nmap <leader>gf :Grepper -query 
+nmap <leader>gf :Grepper -tool grep -query 
