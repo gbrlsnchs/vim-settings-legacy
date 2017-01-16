@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.2] - 16-01-2017
+### Fixed
+- Fixed tag comparison links.
+
 ## [0.2.1] - 16-01-2017
 ### Fixed
 - Added missing date in this CHANGELOG file.
@@ -25,5 +29,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial configuration.
 - Some plugins.
 
-[0.2.1]: https://github.com/gsanches/vim-settings/compare/0.2.0...0.2.1
-[0.2.0]: https://github.com/gsanches/vim-settings/compare/0.1.0...0.2.0
+[0.2.2]: https://github.com/gsanches/vim-settings/compare/v0.2.1...v0.2.2
+[0.2.1]: https://github.com/gsanches/vim-settings/compare/v0.2.0...v0.2.1
+[0.2.0]: https://github.com/gsanches/vim-settings/compare/v0.1.0...v0.2.0
