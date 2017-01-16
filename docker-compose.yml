@@ -1,0 +1,7 @@
+version: "2"
+services:
+  vim_builder:
+    build: .
+    volumes:
+      - "./install-vim.sh:/config/install-vim.sh"
+      - "/usr/local/bin/vim"
