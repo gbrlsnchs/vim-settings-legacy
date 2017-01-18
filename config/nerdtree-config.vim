@@ -1,1 +1,1 @@
-let g:NERDTreeWinSize=40
+let g:NERDTreeWinSize = 40
