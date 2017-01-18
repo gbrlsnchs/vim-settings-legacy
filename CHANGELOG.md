@@ -4,7 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.2.3] - 16-01-2017
+## [0.2.4] - 18-01-2017
+### Fixed
+- Version 0.2.3 release date.
+
+## [0.2.3] - 18-01-2017
 ### Changed
 - CtrlP now ignores *node_modules*, *git* and *DS_Store* folders.
 
