@@ -1,8 +1,11 @@
-" sets Vagrantfile syntax to Ruby
+" set Vagrantfile syntax to Ruby
 autocmd BufNewFile,BufRead Vagrantfile set filetype=ruby
 
-" sets Go to use 8 tabs (no spaces)
+" set Go to use 8 tabs (no spaces)
 autocmd filetype go setlocal noexpandtab tabstop=8 shiftwidth=8 softtabstop=8
+
+" fix CFUtils not recognizing *.cfc as CFScript
+autocmd BufNewFile,BufRead *.cfc set filetype=cfc
 
 " fix highlight settings (seems to be slow)
 autocmd BufEnter * :syntax sync fromstart

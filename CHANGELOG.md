@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [0.4.0] - 2017-01-26
+### Added
+- Auto-pairing submodule.
+- Fix for recognizing *.cfc files as CFScript.
+
+### Changed
+- Buffer motion maps.
+
 ### Removed
 - NERD Fonts submodule.
 - Unused assets folder.
