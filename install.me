@@ -17,9 +17,10 @@ VIMPROC_DIR=$ROOT_DIR/bundle/vimproc.vim
 
 if [ -d $VIMPROC_DIR ]; then
     if [ ! -f $VIMPROC_DIR/lib/vimproc_linux64.so ]; then
-        cd VIMPROC_DIR
+        cd $VIMPROC_DIR
         make
-        cd ROOT_DIR
+        cd $ROOT_DIR
+        echo "\033[0;32mvimproc.vim installed!"
     fi
 fi
 

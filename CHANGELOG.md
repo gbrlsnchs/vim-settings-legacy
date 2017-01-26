@@ -4,31 +4,39 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## [0.2.5] - 18-01-2017
+## [0.3.0] - 2017-01-26
+### Added
+- NERD Fonts submodule.
+
+### Fixed
+- Install script not building vimproc files.
+- Date format for this CHANGELOG file (now YYYY-MM-DD).
+
+## [0.2.5] - 2017-01-18
 ### Fixed
 - Added missing description of version 0.2.3 about code refactoring.
 
 ### Removed
 - Unintended Vim installation script.
 
-## [0.2.4] - 18-01-2017
+## [0.2.4] - 2017-01-18
 ### Fixed
 - Version 0.2.3 release date.
 
-## [0.2.3] - 18-01-2017
+## [0.2.3] - 2017-01-18
 ### Changed
 - CtrlP now ignores *node_modules*, *git* and *DS_Store* folders.
 - Refactored config files.
 
-## [0.2.2] - 16-01-2017
+## [0.2.2] - 2017-01-16
 ### Fixed
 - Fixed tag comparison links.
 
-## [0.2.1] - 16-01-2017
+## [0.2.1] - 2017-01-16
 ### Fixed
 - Added missing date in this CHANGELOG file.
 
-## [0.2.0] - 16-01-2017
+## [0.2.0] - 2017-01-16
 ### Added
 - Git submodules update script.
 
@@ -38,13 +46,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Removed
 - Grepper custom settings.
 
-## 0.1.0 - 02-01-2017
+## 0.1.0 - 2017-01-02
 ### Added
 - This CHANGELOG file.
 - README file.
 - Initial configuration.
 - Some plugins.
 
+[0.3.0]: https://github.com/gsanches/vim-settings/compare/v0.2.5...v0.3.0
 [0.2.5]: https://github.com/gsanches/vim-settings/compare/v0.2.4...v0.2.5
 [0.2.4]: https://github.com/gsanches/vim-settings/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/gsanches/vim-settings/compare/v0.2.2...v0.2.3
