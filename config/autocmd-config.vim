@@ -12,3 +12,7 @@ autocmd BufEnter * :syntax sync fromstart
 
 " FIXME: fix Airline when loading session
 autocmd SessionLoadPost * :AirlineRefresh
+
+" {Java,Type,Coffee}Script pretty template
+autocmd FileType javascript JsPreTmpl html
+autocmd FileType typescript JsPreTmpl html
