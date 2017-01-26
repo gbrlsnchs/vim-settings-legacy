@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Auto-pairing submodule.
 - Yank highlighting submodule.
 - Swapfiles support.
-- Syntax highlight for {Java,Type,Coffee}Script templates.
+- Syntax highlighting for {Java,Type,Coffee}Script templates.
 
 ### Changed
 - Buffer motion maps.
