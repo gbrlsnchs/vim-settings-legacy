@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Buffer motion maps.
 - Switched CF Utils for ColdFusion Utils.
 - Installation script now creates the swapfiles directory.
+- Pum height is now set.
 
 ### Removed
 - NERD Fonts submodule.

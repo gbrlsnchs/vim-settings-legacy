@@ -55,3 +55,5 @@ set showcmd
 
 " sets dark colorscheme
 set background=dark
+
+set pumheight=10
