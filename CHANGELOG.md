@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.4.0] - 2017-01-26
 ### Added
 - Auto-pairing submodule.
+- Yank highlighting submodule.
 - Swapfiles support.
 
 ### Changed

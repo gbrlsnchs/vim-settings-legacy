@@ -10,3 +10,5 @@ nmap <leader>gf :Grepper -tool grep -query
 nmap <leader>bn :bn<CR>
 nmap <leader>bp :bp<CR>
 nmap <leader>bd :Bd<CR>
+map y <Plug>(operator-flashy)
+nmap Y <Plug>(operator-flashy)$
