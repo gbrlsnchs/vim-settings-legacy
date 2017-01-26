@@ -7,10 +7,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [0.4.0] - 2017-01-26
 ### Added
 - Auto-pairing submodule.
-- Fix for recognizing *.cfc files as CFScript.
 
 ### Changed
 - Buffer motion maps.
+- Switched CF Utils for ColdFusion Utils.
+- Turned swapfiles on.
 
 ### Removed
 - NERD Fonts submodule.

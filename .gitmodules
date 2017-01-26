@@ -58,9 +58,6 @@
 [submodule "bundle/vim-shebang"]
 	path = bundle/vim-shebang
 	url = https://github.com/vitalk/vim-shebang.git
-[submodule "bundle/cf-utils.vim"]
-	path = bundle/cf-utils.vim
-	url = https://github.com/davejlong/cf-utils.vim.git
 [submodule "bundle/typescript-vim"]
 	path = bundle/typescript-vim
 	url = https://github.com/leafgarland/typescript-vim.git
@@ -82,3 +79,6 @@
 [submodule "bundle/auto-pairs"]
 	path = bundle/auto-pairs
 	url = https://github.com/jiangmiao/auto-pairs.git
+[submodule "bundle/coldfusion-utils"]
+	path = bundle/coldfusion-utils
+	url = https://github.com/gsanches/coldfusion-utils.git

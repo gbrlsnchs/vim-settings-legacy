@@ -43,7 +43,7 @@ set encoding=utf-8
 
 set showtabline=2
 
-set noswapfile
+set directory=~/.vim/swapfiles
 
 set t_Co=16
 
@@ -55,4 +55,3 @@ set showcmd
 
 " sets dark colorscheme
 set background=dark
-

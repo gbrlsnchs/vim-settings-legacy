@@ -6,7 +6,13 @@ if [ -L $ROOT_DIR ]; then
     exit 1
 fi
 
-# Remove existing files and create new symlinks
+# create swapfiles dir
+if [ ! -d $ROOT_DIR/swapfiles ]; then
+    mkdir $ROOT_DIR/swapfiles
+    echo "\033[0;32mSwapfiles directory created!"
+fi
+
+# remove existing files and create new symlinks
 rm -f ~/.vimrc
 ln -s $ROOT_DIR/vimrc ~/.vimrc
 
