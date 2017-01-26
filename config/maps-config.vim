@@ -12,3 +12,5 @@ nmap <leader>bp :bp<CR>
 nmap <leader>bd :Bd<CR>
 map y <Plug>(operator-flashy)
 nmap Y <Plug>(operator-flashy)$
+nmap <leader>js :JsPreTmpl
+nmap <leader>jc :JsPreTmplClear

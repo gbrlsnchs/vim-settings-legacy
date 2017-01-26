@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.4.1] - 2017-01-26
+### Added
+- Template string syntax highlighting toggling maps.
+
+### Changed
+- TypeScript does not load template strings syntax highlighting automatically anymore.
+
+### Fixed
+- TypeScript syntax highlighting for template strings.
+
 ## [0.4.0] - 2017-01-26
 ### Added
 - Auto-pairing submodule.
@@ -70,6 +80,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial configuration.
 - Some plugins.
 
+[0.4.1]: https://github.com/gsanches/vim-settings/compare/v0.4.0...v0.4.1
 [0.4.0]: https://github.com/gsanches/vim-settings/compare/v0.3.0...v0.4.0
 [0.3.0]: https://github.com/gsanches/vim-settings/compare/v0.2.5...v0.3.0
 [0.2.5]: https://github.com/gsanches/vim-settings/compare/v0.2.4...v0.2.5
