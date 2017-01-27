@@ -4,6 +4,10 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.5.1] - 2017-01-27
+### Fixed
+- Changed how Grepper searches to make it much faster.
+
 ## [0.5.0] - 2017-01-27
 ### Removed
 - Removed JsPreTmpl and its custom maps.
@@ -88,6 +92,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial configuration.
 - Some plugins.
 
+[0.5.1]: https://github.com/gsanches/vim-settings/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/gsanches/vim-settings/compare/v0.4.2...v0.5.0
 [0.4.2]: https://github.com/gsanches/vim-settings/compare/v0.4.1...v0.4.2
 [0.4.1]: https://github.com/gsanches/vim-settings/compare/v0.4.0...v0.4.1

@@ -1,3 +1,3 @@
 let g:grepper = {
-    \ 'dir': 'repo,cwd'
+    \ 'dir': 'repo,file'
     \ }
