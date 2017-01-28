@@ -20,17 +20,24 @@ rm -rf ~/.vim
 ln -s $ROOT_DIR ~/.vim
 
 VIMPROC_DIR=$ROOT_DIR/bundle/vimproc.vim
+YOUCOMPLETEME_DIR=$ROOT_DIR/bundle/YouCompleteMe
 
-if [ -d $VIMPROC_DIR ]; then
-    if [ ! -f $VIMPROC_DIR/lib/vimproc_linux64.so ]; then
-        cd $VIMPROC_DIR
-        make
-        cd $ROOT_DIR
-        echo "\033[0;32mvimproc.vim installed!"
-    fi
+cd $YOUCOMPLETEME_DIR
+git submodule update --init --recursive
+cd $ROOT_DIR
+
+# check if docker is installed
+if [ command -v docker>/dev/null 2>&1 ]; then
+    echo "\033[0;31mDocker is not installed. Vimproc and YouCompleteMe were not completely installed."
+    echo "\033[0;31mRun \033[0;33mwget -O - https://get.docker.com | sh - \033[0;31mto install it."
+else
+    docker run --rm \
+        -v $VIMPROC_DIR:/app/vimproc.vim \
+        -v $YOUCOMPLETEME_DIR:/app/YouCompleteMe \
+        -v $ROOT_DIR/build-dep.sh:/app/build-dep.sh \
+        gsanches/vim-settings:latest
 fi
 
 . $ROOT_DIR/scripts/loading.sh
-
 print_loading
 echo "\033[0;32mInstallation complete!"

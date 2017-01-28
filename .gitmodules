@@ -88,3 +88,6 @@
 [submodule "bundle/coldfusion-utils"]
 	path = bundle/coldfusion-utils
 	url = https://github.com/gsanches/coldfusion-utils.git
+[submodule "bundle/YouCompleteMe"]
+	path = bundle/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
