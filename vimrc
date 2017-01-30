@@ -1,4 +1,4 @@
-" Author: Gabriel Sanches Rodrigues <gabrielsanches@live.com>
+" Author: Gabriel Sanches <gsanches.dev@gmail.com>
 " load pathogen
 source ~/.vim/config/pathogen-config.vim
 
@@ -14,5 +14,6 @@ source ~/.vim/config/ctrlp-config.vim
 source ~/.vim/config/nerdtree-config.vim
 source ~/.vim/config/solarized-config.vim
 source ~/.vim/config/startify-config.vim
+source ~/.vim/config/syntastic-config.vim
 source ~/.vim/config/python-config.vim
 source ~/.vim/config/tsuquyomi-config.vim

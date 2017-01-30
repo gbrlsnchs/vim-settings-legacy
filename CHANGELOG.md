@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.7.0] - 2017-01-30
+### Added
+- Syntastic configuration.
+- Script to fix workers and file watchers.
+
+### Changed
+- Moved Tsuquyomi settings about Syntastic to a new file.
+
 ## [0.6.0] - 2017-01-28
 ### Added
 - Dockerfile for building plugin dependencies.
@@ -101,6 +109,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - Initial configuration.
 - Some plugins.
 
+[0.7.0]: https://github.com/gsanches/vim-settings/compare/v0.6.0...v0.7.0
 [0.6.0]: https://github.com/gsanches/vim-settings/compare/v0.5.1...v0.6.0
 [0.5.1]: https://github.com/gsanches/vim-settings/compare/v0.5.0...v0.5.1
 [0.5.0]: https://github.com/gsanches/vim-settings/compare/v0.4.2...v0.5.0

@@ -64,9 +64,6 @@
 [submodule "bundle/vimproc.vim"]
 	path = bundle/vimproc.vim
 	url = https://github.com/Shougo/vimproc.vim.git
-[submodule "bundle/tsuquyomi"]
-	path = bundle/tsuquyomi
-	url = https://github.com/Quramy/tsuquyomi.git
 [submodule "bundle/vim-grepper"]
 	path = bundle/vim-grepper
 	url = https://github.com/mhinz/vim-grepper.git
@@ -91,3 +88,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule "bundle/tsuquyomi"]
+	path = bundle/tsuquyomi
+	url = https://github.com/Quramy/tsuquyomi.git
